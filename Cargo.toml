@@ -1,0 +1,18 @@
+[package]
+name = "nekosekai"
+version = "0.0.1"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/pas2rust/nekosekai"
+readme = "README.md"
+homepage = "https://github.com/pas2rust/nekosekai"
+documentation = "https://docs.rs/nekosekai"
+description = "Full-stack framework that integrates nekoui and nekoserver. Build modern web apps with automatic backend generation, CRUD, caching, and more."
+authors = ["pas2rust <pas2000@proton.me>"]
+keywords = ["backend", "frontend", "crud", "cache", "web"]
+categories = ["web-programming", "api-bindings", "network-programming"]
+exclude = [
+    "tests/*",
+    "tests",
+    "main.rs"
+]
